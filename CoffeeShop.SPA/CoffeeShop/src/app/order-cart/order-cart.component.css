@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url("../../assets/home-cartoon-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}

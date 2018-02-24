@@ -1,0 +1,45 @@
+<div class="jumbotron">
+  <div class="container">
+      <h1>Cart:</h1>
+    <div *ngIf="cartCoffees?.length > 0">
+        <table class="table table-striped table-hover"> 
+            <tr>
+             <th class="main">Name:</th>
+             <th class="main">Quantity:</th>
+             <th class="main">Price:</th>
+             <th class="main"></th>
+           </tr> 
+            <tr *ngFor="let item of cartCoffees">
+             <th>{{item.coffee.name}}</th>
+             <th>{{item.itemsQuantity}}</th>
+             <th>{{item.coffee.price}} $</th>
+             <th><button (click)="deleteItem(item.id,item.coffee.name)"><i class="fa fa-trash " style="color: red"></i></button></th>
+           </tr>
+          </table>
+          <div class="panel text-center">
+            <h3>To Pay: {{sum}} $</h3>
+            <div class="form-group center">
+                <button [routerLink]="['/menu']" routerLinkActive="menu" class="btn btn-success btn-lg" > Menu</button>
+                <!-- wysy;anie z koszyka kaw w postaci karta do ordera i wysylanie do api.
+                  Jak wyslac dane parent -> children? chyba
+                  
+                  <app-order-cart [cartCoffees]="cartCoffees"></app-order-cart> 
+                
+                -->
+                <button [routerLink]="['/order']"  routerLinkActive="cart" class="btn btn-success btn-lg" > Order</button>
+            </div>
+            <h3>clear cart</h3>
+            <button [routerLink]="['/menu']" (click)="clearCart()" routerLinkActive="menu" class="btn btn-success btn-lg" > clear</button>
+
+          </div>
+    </div>
+
+      <div *ngIf="!cartCoffees?.length > 0">
+        <h1>Your cart is empty!</h1>
+        <h1>Take a look at our menu</h1>
+        <button [routerLink]="['/menu']" routerLinkActive="menu" class="btn btn-danger" >Click ME</button>
+      </div>
+
+  </div>
+
+</div>

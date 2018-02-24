@@ -1,0 +1,31 @@
+.navbar-brand {
+    color: #cae8f9;
+    font-size: 35px;
+}
+
+.btn-success:hover {
+    color: #ffffff;
+    background-color: #a4d9f5;
+    border-color: #000000;
+}
+
+.btn-success {
+    color: #0b0c0e;
+    background-color: #a4d9f5;
+    border-color: #000000;
+}
+/* .jumbotron h1 {
+    background-color: blanchedalmond;
+} */
+
+li p {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    font-size: 20px;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: block;
+}
+

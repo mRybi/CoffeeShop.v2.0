@@ -17,9 +17,21 @@ namespace CoffeeShop.v2._0
             BuildWebHost(args).Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .Build();
+        public static IWebHost BuildWebHost(string[] args)
+        {
+            return WebHost
+        .CreateDefaultBuilder(args)
+        .ConfigureAppConfiguration(
+            (WebHostBuilderContext context, IConfigurationBuilder builder) =>
+            {
+                builder.Sources.Clear();
+
+                builder
+                    .AddEnvironmentVariables()
+                    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            })
+        .UseStartup<Startup>()
+        .Build();
+        }
     }
 }

@@ -1,0 +1,95 @@
+<div class="jumbotron">
+    <div class="col-md-4 col-md-offset-4">
+      <h1 class="text-center text-primary">Order:</h1>
+   
+
+    <form [formGroup]="orderForm" (ngSubmit)="orderCart()">
+      <!-- email -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('email').errors && orderForm.get('email').touched}">
+          <input type="text" class="form-control" placeholder="Email Adress" formControlName="email">
+          <span class="help-block" *ngIf="orderForm.get('email').hasError('required') && orderForm.get('email').touched">
+
+              Email is required
+      
+            </span>
+        </div>
+      <!-- name -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('name').errors && orderForm.get('name').touched}">
+          <input type="text" class="form-control" placeholder="Name" formControlName="name">
+          <span class="help-block" *ngIf="orderForm.get('name').hasError('required') && orderForm.get('name').touched">
+
+              Name is required
+      
+            </span>
+        </div>
+
+        <!-- surname -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('surname').errors && orderForm.get('surname').touched}">
+          <input type="text" class="form-control" placeholder="Surname" formControlName="surname">
+          <span class="help-block" *ngIf="orderForm.get('surname').hasError('required') && orderForm.get('surname').touched">
+
+              Surname is required
+      
+            </span>
+        </div>
+
+        <!-- country -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('country').errors && orderForm.get('country').touched}">
+            <input type="text" class="form-control" placeholder="Country" formControlName="country">
+            <span class="help-block" *ngIf="orderForm.get('country').hasError('required') && orderForm.get('country').touched">
+  
+                Country is required
+        
+              </span>
+          </div>
+
+          <!-- city -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('city').errors && orderForm.get('city').touched}">
+            <input type="text" class="form-control" placeholder="City" formControlName="city">
+            <span class="help-block" *ngIf="orderForm.get('city').hasError('required') && orderForm.get('city').touched">
+  
+                City is required
+        
+              </span>
+          </div>
+
+          <!-- street -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('street').errors && orderForm.get('street').touched}">
+            <input type="text" class="form-control" placeholder="Street" formControlName="street">
+            <span class="help-block" *ngIf="orderForm.get('street').hasError('required') && orderForm.get('street').touched">
+  
+                Street is required
+        
+              </span>
+          </div>
+
+          <!-- houseNumber -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('houseNumber').errors && orderForm.get('houseNumber').touched}">
+            <input type="number" class="form-control" placeholder="HouseNumber" formControlName="houseNumber">
+            <span class="help-block" *ngIf="orderForm.get('houseNumber').hasError('required') && orderForm.get('houseNumber').touched">
+  
+                HouseNumber is required
+        
+              </span>
+          </div>
+
+          <!-- phoneNumber -->
+        <div class="form-group" [ngClass]="{'has-error': orderForm.get('phoneNumber').errors && orderForm.get('phoneNumber').touched}">
+            <input type="number" class="form-control" placeholder="Phone Number" formControlName="phoneNumber">
+            <span class="help-block" *ngIf="orderForm.get('phoneNumber').hasError('required') && orderForm.get('phoneNumber').touched">
+  
+                Phone Number is required
+        
+              </span>
+          </div>
+
+          <div class="form-group text-center">
+
+              <button class="btn btn-success" [disabled]="!orderForm.valid" type="submit">Order</button>
+        
+              <button class="btn btn-default" type="button" (click)="cancel()">Cancel</button>
+        
+            </div>
+    </form>
+</div>
+</div>

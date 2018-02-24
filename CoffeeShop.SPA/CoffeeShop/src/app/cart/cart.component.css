@@ -1,0 +1,9 @@
+.jumbotron {
+    background: url("../../assets/home-cartoon-bg.jpg");
+    background-position: center;
+    height: 700px;
+}
+
+.main {
+    font-size: 20px;
+}

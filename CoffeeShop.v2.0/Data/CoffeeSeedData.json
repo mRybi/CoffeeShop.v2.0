@@ -1,0 +1,65 @@
+[
+  {
+    "Description": "Elit ut commodo officia non nostrud commodo ea. Aliquip nostrud in dolore officia exercitation adipisicing voluptate laboris exercitation elit do sit labore in. Consectetur magna ullamco dolor est id incididunt ut sint eu do non labore velit.",
+    "Capacity": 107,
+    "Price": 9.25,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/219b313a91c4402cbacfb01754a50998.jpg",
+    "Name": "Latte Macchiato"
+  },
+  {
+    "Description": "Do quis dolor dolor labore irure tempor labore excepteur non nisi aliqua. Officia veniam consequat est irure labore voluptate fugiat laboris sit. Commodo ullamco eu Lorem deserunt esse est cillum enim id. Duis nulla minim est voluptate exercitation duis magna velit occaecat cillum sint incididunt incididunt. Incididunt consectetur esse excepteur laborum enim dolor magna minim amet aliquip excepteur ad esse proident. Consequat sint aliquip ut officia. Eiusmod minim amet et ex consectetur culpa labore velit cupidatat.",
+    "Capacity": 151,
+    "Price": 9.99,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/52d8be381275475d8e62c8fe28784da9.jpg",
+    "Name": "Doppio"
+  },
+  {
+    "Description": "Commodo amet voluptate magna occaecat ut. Dolor nulla ad laborum sit esse nostrud Lorem eiusmod do in. Deserunt qui laboris Lorem mollit cupidatat mollit reprehenderit. Eiusmod aute sint veniam et dolore dolor aliquip nulla dolor. Eu irure excepteur dolor do consequat ullamco adipisicing incididunt deserunt irure cupidatat ea ut cillum. Labore aliqua voluptate culpa aliquip amet minim do. Laborum deserunt minim dolore sit ea dolore commodo ex voluptate.",
+    "Capacity": 124,
+    "Price": 9,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/2a4807223b53455b89f792b5e25ce89e.jpg",
+    "Name": "Americano"
+  },
+  {
+    "Description": "Est sit enim consectetur reprehenderit incididunt ad ut cillum in laborum ex aute reprehenderit fugiat. Sit eu id culpa culpa et esse ut aliquip aliquip. Deserunt voluptate est adipisicing incididunt. Dolor sit do eiusmod ipsum Lorem esse amet culpa. Ea tempor voluptate reprehenderit culpa dolore.",
+    "Capacity": 114,
+    "Price": 7.50,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/499706162b3a4c1eb034fb7ef30e143d.jpg",
+    "Name": "Espresso Macchiato"
+  },
+  {
+    "Description": "Ea irure aliqua reprehenderit commodo dolor. Cillum tempor anim occaecat culpa sunt aliqua dolore reprehenderit enim laborum enim esse elit. Elit adipisicing pariatur tempor adipisicing sunt velit laboris laborum. Cupidatat consequat fugiat esse ipsum minim fugiat consectetur labore commodo in commodo consequat. Do veniam nostrud ea tempor anim reprehenderit. Aliquip nisi sint exercitation fugiat dolor aliquip ea incididunt.",
+    "Capacity": 227,
+    "Price": 5.99,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/79b276794c714d7c9c14dd2d1757b097.jpg",
+    "Name": "Flat White"
+  },
+  {
+    "Description": "Sit eu aliqua labore et qui ipsum fugiat incididunt voluptate voluptate ullamco. Eu laborum esse qui esse occaecat magna consequat tempor incididunt enim est. Cillum eiusmod eiusmod aute aliqua sunt aliqua nisi incididunt irure labore amet qui minim aliqua.",
+    "Capacity": 141,
+    "Price": 3.99,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/4681a797bd864be4b04fedc692f94723.jpg",
+    "Name": "Cappuccino"
+  },
+  {
+    "Description": "Pariatur nostrud reprehenderit cillum culpa ut sunt. Cupidatat Lorem tempor duis magna qui qui veniam enim excepteur eu deserunt laboris officia irure. Elit non ad veniam ullamco et labore qui eu et nisi deserunt. Non duis ad aliquip ex laborum cupidatat. Nulla eiusmod excepteur consectetur culpa minim magna duis est consectetur.",
+    "Capacity": 225,
+    "Price": 7,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/0aec516c617c4df7904452542ab706b6.jpg",
+    "Name": "Latte"
+  },
+  {
+    "Description": "Occaecat occaecat est cupidatat sunt adipisicing ea. Laborum cupidatat quis nisi do tempor in commodo enim laborum aliquip dolor. In et exercitation pariatur cupidatat in ut nulla est non pariatur incididunt et. Est veniam culpa amet aliquip. In dolor ipsum ullamco excepteur ad sunt sit do officia.",
+    "Capacity": 156,
+    "Price": 8.99,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/d17872b91ef54c4b8649fc9b596c2d35.jpg",
+    "Name": "Caramel Macchiato"
+  },
+  {
+    "Description": "Id non elit Lorem cillum mollit cillum ipsum anim. Veniam magna pariatur voluptate sit amet qui nulla exercitation fugiat. Irure elit magna incididunt reprehenderit aute nisi et voluptate nulla. Proident esse esse ipsum ea culpa ullamco. Id ex commodo occaecat occaecat do culpa ut elit veniam nostrud. Ea ipsum esse laboris ex reprehenderit minim do elit ullamco commodo aute duis quis. Anim in labore dolore id anim ad consectetur.",
+    "Capacity": 239,
+    "Price": 4.99,
+    "PhotoUrl": "//globalassets.starbucks.com/assets/7e2d6987b7404f13ab8eae0b2712dde9.jpg",
+    "Name": "Mocha"
+  }
+]

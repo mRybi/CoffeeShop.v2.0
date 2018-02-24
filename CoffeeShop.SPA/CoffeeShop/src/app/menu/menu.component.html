@@ -1,0 +1,43 @@
+<div class="jumbotron">
+    <div class="container">
+      <h1>Our Products</h1>
+
+      <div class="row equal">
+        <div *ngFor="let coffee of coffees" class="col-lg-2 col-md-3 col-sm-6">
+          <app-coffee-card [coffee]="coffee"></app-coffee-card>
+        </div>
+      </div>
+        
+      <p>Since 1971, it always has been and will always be about quality. We’re passionate about ethically sourcing only the finest Arabica beans and roasting them with great care.</p>
+    </div>
+  </div>
+
+  <!-- <div class="container">
+      <! Example row of columns -->
+      <!-- <div class="row">
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div> -->
+ 
+      <hr>
+  
+      <div class="container">
+          <footer>
+              <p>&copy; 2016 Company, Inc.</p>
+            </footer>
+      </div>
+      
+   <!-- </div>  /container -->

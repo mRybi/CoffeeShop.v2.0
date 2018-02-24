@@ -1,0 +1,35 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="panel-image imgClick">
+      <img [routerLink]="['/menu/',coffee.id]" src="{{coffee.photoUrl ? coffee.photoUrl : '../../../assets/img/portfolio/thumbnails/1.jpg'}}" alt="">
+      <ul class="list-inline member-icons animate text-center">
+          <form #addToCartForm="ngForm" (ngSubmit)="addToCart()">
+          <div class="form-group">
+              <input *ngIf="isLoggedIn()" class="form-control" #quantity="ngModel" required name="quantity"  [(ngModel)]="model.quantity"  type="text" placeholder="quantity">
+          </div>  
+          <li><button *ngIf="isLoggedIn()" class="btn btn-primary" [disabled]="!addToCartForm.valid" type="submit" ><i class="fa fa-shopping-cart"></i></button></li>
+          </form>    
+      </ul>
+    </div>
+    <div class="text-center">
+      <h5><i class="fa fa-coffee"></i>{{coffee.name}}</h5>
+    </div>
+    <div class="text-center">
+      <h5><small>{{coffee.price}} $</small></h5>
+
+    </div>
+  </div>
+</div>
+<div>
+
+  <!-- <form #loginForm="ngForm" class="navbar-form navbar-right" (ngSubmit)="addToCart()">
+      <div class="form-group">
+        <input class="form-control" #idItem="ngModel" required name="idItem"  [(ngModel)]="model.idItem" type="text" placeholder="idItem">
+      </div>
+      <div class="form-group">
+        <input class="form-control" #quantity="ngModel" required name="quantity"  [(ngModel)]="model.quantity"  type="text" placeholder="quantity">
+      </div>
+      <button class="btn btn-success" [disabled]="!loginForm.valid" type="submit">Sign in</button>
+    </form> -->
+</div>
+
