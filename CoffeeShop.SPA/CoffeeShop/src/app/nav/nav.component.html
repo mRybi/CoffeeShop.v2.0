@@ -19,7 +19,7 @@
 
         <form *ngIf="!loggedIn()" #loginForm="ngForm" (ngSubmit)="login()" class="navbar-form navbar-right">
           <div class="form-group">
-            <input class="form-control" type="text" #username="ngModel" required name="username" [(ngModel)]="model.username" placeholder="Username">
+            <input class="form-control" type="text" #username="ngModel" required name="username" [(ngModel)]="model.username" placeholder="Email">
           </div>
           <div class="form-group">
             <input class="form-control" type="password" #password="ngModel"  required name="password" [(ngModel)]="model.password"  placeholder="Password">
